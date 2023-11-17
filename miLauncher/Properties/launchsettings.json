@@ -1,0 +1,10 @@
+﻿{
+    "profiles": {
+      "miLauncher (Package)": {
+        "commandName": "MsixPackage"
+      },
+      "miLauncher (Unpackaged)": {
+        "commandName": "Project"
+      }
+    }
+}
