@@ -124,48 +124,54 @@
     <value>miLauncher</value>
   </data>
   <data name="Shell_Main.Content" xml:space="preserve">
-    <value>MainPage</value>
+    <value>启动器主页面</value>
   </data>
-  <data name="Shell_Check.Content" xml:space="preserve">
-    <value>Check</value>
+  <data name="Shell_Genshin.Content" xml:space="preserve">
+    <value>原神</value>
   </data>
   <data name="Settings_Personalization.Text" xml:space="preserve">
     <value>Personalization</value>
   </data>
   <data name="Settings_Theme.Text" xml:space="preserve">
-    <value>Theme</value>
+    <value>主题</value>
   </data>
   <data name="Settings_Theme_Light.Content" xml:space="preserve">
-    <value>Light</value>
+    <value>浅色模式</value>
   </data>
   <data name="Settings_Theme_Dark.Content" xml:space="preserve">
-    <value>Dark</value>
+    <value>深色模式</value>
   </data>
   <data name="Settings_Theme_Default.Content" xml:space="preserve">
-    <value>Default</value>
+    <value>跟随系统样式</value>
   </data>
   <data name="Settings_About.Text" xml:space="preserve">
-    <value>About this application</value>
+    <value>关于启动器</value>
   </data>
   <data name="Settings_AboutDescription.Text" xml:space="preserve">
     <value>TODO: Replace with your app description.</value>
   </data>
   <data name="SettingsPage_PrivacyTermsLink.Content" xml:space="preserve">
-    <value>Privacy Statement</value>
+    <value>开源协议</value>
   </data>
   <data name="SettingsPage_PrivacyTermsLink.NavigateUri" xml:space="preserve">
     <value>https://YourPrivacyUrlGoesHere/</value>
-  </data>
-  <data name="MainPage_TextA.Text" xml:space="preserve">
-    <value>Navigation</value>
-  </data>
-  <data name="MainPage_Title.Text" xml:space="preserve">
-    <value>Welcome to miHoYo Launcher</value>
   </data>
   <data name="SettingsPage_PersonalLink.Content" xml:space="preserve">
     <value>Github</value>
   </data>
   <data name="SettingsPage_PersonalLink.NavigateUri" xml:space="preserve">
     <value>https://github.com/Cratileo</value>
+  </data>
+  <data name="MainPage_TextA.Text" xml:space="preserve">
+    <value>快捷导航</value>
+  </data>
+  <data name="MainPage_Title.Text" xml:space="preserve">
+    <value>欢迎</value>
+  </data>
+  <data name="Shell_HonKai3.Content" xml:space="preserve">
+    <value>崩坏3</value>
+  </data>
+  <data name="Shell_StarRails.Content" xml:space="preserve">
+    <value>崩坏·星穹铁道</value>
   </data>
 </root>

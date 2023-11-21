@@ -2,9 +2,9 @@
 
 namespace miLauncher.ViewModels;
 
-public partial class GenshinViewModel : ObservableRecipient
+public partial class StarRailsViewModel : ObservableRecipient
 {
-    public GenshinViewModel()
+    public StarRailsViewModel()
     {
     }
 }

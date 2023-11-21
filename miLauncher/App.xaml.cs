@@ -71,12 +71,16 @@ public partial class App : Application
             // Views and ViewModels
             services.AddTransient<SettingsViewModel>();
             services.AddTransient<SettingsPage>();
-            services.AddTransient<CheckViewModel>();
-            services.AddTransient<CheckPage>();
+            services.AddTransient<GenshinViewModel>();
+            services.AddTransient<GenshinPage>();
             services.AddTransient<MainViewModel>();
             services.AddTransient<MainPage>();
             services.AddTransient<ShellPage>();
             services.AddTransient<ShellViewModel>();
+            services.AddTransient<StarRailsPage>();
+            services.AddTransient<StarRailsViewModel>();
+            services.AddTransient<HonKai3Page>();
+            services.AddTransient<HonKai3ViewModel>();
 
             // Configuration
             services.Configure<LocalSettingsOptions>(context.Configuration.GetSection(nameof(LocalSettingsOptions)));

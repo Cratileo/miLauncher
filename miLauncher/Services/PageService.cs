@@ -15,8 +15,10 @@ public class PageService : IPageService
     public PageService()
     {
         Configure<MainViewModel, MainPage>();
-        Configure<CheckViewModel, CheckPage>();
+        Configure<GenshinViewModel, GenshinPage>();
         Configure<SettingsViewModel, SettingsPage>();
+        Configure<StarRailsViewModel, StarRailsPage>();
+        Configure<HonKai3ViewModel, HonKai3Page>();
     }
 
     public Type GetPageType(string key)

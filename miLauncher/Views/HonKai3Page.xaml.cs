@@ -4,16 +4,16 @@ using miLauncher.ViewModels;
 
 namespace miLauncher.Views;
 
-public sealed partial class CheckPage : Page
+public sealed partial class HonKai3Page : Page
 {
-    public CheckViewModel ViewModel
+    public HonKai3ViewModel ViewModel
     {
         get;
     }
 
-    public CheckPage()
+    public HonKai3Page()
     {
-        ViewModel = App.GetService<CheckViewModel>();
+        ViewModel = App.GetService<HonKai3ViewModel>();
         InitializeComponent();
     }
 }

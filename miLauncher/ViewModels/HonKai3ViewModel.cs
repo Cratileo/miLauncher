@@ -2,9 +2,9 @@
 
 namespace miLauncher.ViewModels;
 
-public partial class GenshinViewModel : ObservableRecipient
+public partial class HonKai3ViewModel : ObservableRecipient
 {
-    public GenshinViewModel()
+    public HonKai3ViewModel()
     {
     }
 }
