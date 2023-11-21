@@ -168,6 +168,15 @@
   <data name="MainPage_Title.Text" xml:space="preserve">
     <value>欢迎</value>
   </data>
+  <data name="Settings_AutoExit.Text" xml:space="preserve">
+    <value>启动后自动关闭启动器</value>
+  </data>
+  <data name="Setting_AutoExit_No.Content" xml:space="preserve">
+    <value>否</value>
+  </data>
+  <data name="Setting_AutoExit_Yes.Content" xml:space="preserve">
+    <value>是</value>
+  </data>
   <data name="Shell_HonKai3.Content" xml:space="preserve">
     <value>崩坏3</value>
   </data>

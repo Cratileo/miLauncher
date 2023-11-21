@@ -1,5 +1,6 @@
 ﻿using System.Reflection;
 using System.Windows.Input;
+using System.Diagnostics;
 
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
@@ -8,6 +9,7 @@ using Microsoft.UI.Xaml;
 
 using miLauncher.Contracts.Services;
 using miLauncher.Helpers;
+using miLauncher.Command;
 
 using Windows.ApplicationModel;
 
@@ -62,4 +64,22 @@ public partial class SettingsViewModel : ObservableRecipient
 
         return $"{"AppDisplayName".GetLocalized()} - {version.Major}.{version.Minor}.{version.Build}.{version.Revision}";
     }
+
+    //以下为自动退出的MVVM
+    bool isCanExec = true;
+    //TODO:解决这里的问题 
+    public ICommand AutoExit = new AutoExit(MyAction, MyCanExec);
+
+    private void MyAction(object param)
+    {
+        Debug.WriteLine("Test");
+        isCanExec = false;
+    }
+
+    private bool MyCanExec(object param)
+    {
+        return isCanExec;
+    }
+
+
 }

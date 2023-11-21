@@ -22,7 +22,7 @@
                         x:Uid="Settings_Theme_Light"
                         Command="{x:Bind ViewModel.SwitchThemeCommand}"
                         IsChecked="{x:Bind ViewModel.ElementTheme, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=Light, Mode=OneWay}"
-                        FontSize="15"
+                        FontSize="14"
                         GroupName="AppTheme">
                         <RadioButton.CommandParameter>
                             <xaml:ElementTheme>Light</xaml:ElementTheme>
@@ -32,7 +32,7 @@
                         x:Uid="Settings_Theme_Dark"
                         Command="{x:Bind ViewModel.SwitchThemeCommand}"
                         IsChecked="{x:Bind ViewModel.ElementTheme, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=Dark, Mode=OneWay}"
-                        FontSize="15"
+                        FontSize="14"
                         GroupName="AppTheme">
                         <RadioButton.CommandParameter>
                             <xaml:ElementTheme>Dark</xaml:ElementTheme>
@@ -42,7 +42,7 @@
                         x:Uid="Settings_Theme_Default"
                         Command="{x:Bind ViewModel.SwitchThemeCommand}"
                         IsChecked="{x:Bind ViewModel.ElementTheme, Converter={StaticResource EnumToBooleanConverter}, ConverterParameter=Default, Mode=OneWay}"
-                        FontSize="15"
+                        FontSize="14"
                         GroupName="AppTheme">
                         <RadioButton.CommandParameter>
                             <xaml:ElementTheme>Default</xaml:ElementTheme>
@@ -50,8 +50,26 @@
                     </RadioButton>
                 </StackPanel>
             </StackPanel>
-            <!--TODO-->
-            <!--<StackPanel Margin=""-->
+            <StackPanel Margin="{StaticResource SmallTopBottomMargin}">
+                <TextBlock x:Uid="Settings_AutoExit" Style="{ThemeResource SubtitleTextBlockStyle}"/>
+
+                <StackPanel Margin="{StaticResource XSmallTopMargin}">
+                    <RadioButton
+                        x:Uid="Setting_AutoExit_Yes"
+                        Command="{x:Bind }"
+                        IsChecked="False"
+                        FontSize="14"
+                        GroupName="AutoExit">
+                    </RadioButton>
+                    <RadioButton
+                        x:Uid="Setting_AutoExit_No"
+
+                        IsChecked="True"
+                        FontSize="14"
+                        GroupName="AutoExit">
+                    </RadioButton>
+                </StackPanel>
+            </StackPanel>
 
             <TextBlock x:Uid="Settings_About" Style="{ThemeResource SubtitleTextBlockStyle}" />
 
