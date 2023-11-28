@@ -8,7 +8,13 @@
 
     <Grid>
         <StackPanel x:Name="ContentArea">
-            
+            <StackPanel VerticalAlignment="Top" Orientation="Horizontal">
+                <Button x:Name="PickAFileButton" Content="Open a file" Click="PickAFileButton_Click" Margin="0,0,0,10"/>
+                <TextBlock x:Name="PickAFileOutputTextBlock" TextWrapping="Wrap" Padding="20,5,0,0"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="0,350,50,0">
+                <Button x:Uid="StartSR"  FontSize="28" Style="{StaticResource AccentButtonStyle}"></Button>
+            </StackPanel>
         </StackPanel>
         
     </Grid>

@@ -56,7 +56,7 @@
                 <StackPanel Margin="{StaticResource XSmallTopMargin}">
                     <RadioButton
                         x:Uid="Setting_AutoExit_Yes"
-                        Command="{x:Bind }"
+
                         IsChecked="False"
                         FontSize="14"
                         GroupName="AutoExit">

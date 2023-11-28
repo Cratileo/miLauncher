@@ -183,4 +183,7 @@
   <data name="Shell_StarRails.Content" xml:space="preserve">
     <value>崩坏·星穹铁道</value>
   </data>
+  <data name="StartSR.Content" xml:space="preserve">
+    <value>启动</value>
+  </data>
 </root>
